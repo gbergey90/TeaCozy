@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Helvetica; serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  border-color: seashell;
+  border: 1px solid seashell;
+}
+.nav {
+  display: inline-block;
+  padding: 10px 10px
+}
+.logo {
+  display: flex;
+  align-items: flex-start;
+}
+
+.background {
+  height: 700px
+  width: 1200px
+
+}
+.locations-background image-content {
+   background-image:
+  url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+}
+nav span {
+  display: inline-block;
+align-content: center;
+}
+
+.info {
+  text-align: center;
+}
+.copyright {
+display: inline-block;
+text-align: left;
+padding-left: 20px;
+}
