@@ -30,6 +30,14 @@ font-weight: bold;
   url("../images/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-content span{
+    background: black;
+    width: 100%;
 }
 
 .locations-background {
@@ -39,11 +47,17 @@ font-weight: bold;
   width: 1200px;
 }
 
-.fall-berry {
+div.container {
   display: flex;
-  image: url("../images/img-berryblitz.jpg");
   height: 200px;
   width: 300px;
+}
+
+.container {
+  display: flex;
+  align-content: space-around;
+  margin-left: 10px;
+  width: 1000px;
 }
 
 .location {
@@ -61,7 +75,6 @@ font-weight: bold;
   text-align: center;
 }
 .copyright {
-display: inline-block;
 text-align: left;
 padding-left: 20px;
 }
