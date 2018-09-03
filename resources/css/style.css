@@ -7,7 +7,15 @@ body {
   opacity: 0.9;
   border-color: seashell;
   border: 1px solid seashell;
+  text-align: center;
 }
+
+h2 {
+display: block;
+margin: 0;
+font-weight: bold;
+}
+
 .nav {
   display: inline-block;
   padding: 10px 10px
@@ -17,20 +25,36 @@ body {
   align-items: flex-start;
 }
 
-.background {
-  height: 700px
-  width: 1200px
-
+.image-content {
+  background-image:
+  url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
 }
-.locations-background image-content {
+
+.locations-background {
    background-image:
   url("../images/img-locations-background.jpg");
   height: 500px;
   width: 1200px;
 }
-nav span {
-  display: inline-block;
-align-content: center;
+
+.fall-berry {
+  display: flex;
+  image: url("../images/img-berryblitz.jpg");
+  height: 200px;
+  width: 300px;
+}
+
+.location {
+    opacity: 1.0;
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: black;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .info {
