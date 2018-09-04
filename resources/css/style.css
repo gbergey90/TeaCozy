@@ -10,16 +10,19 @@ body {
   text-align: center;
 }
 
-h2 {
-display: block;
-margin: 0;
-font-weight: bold;
+.Header {
+  position: fixed;
+  background-color: black;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  padding-left: 10px;
+}
+  
+nav span {
+  text-align: right;
 }
 
-.nav {
-  display: inline-block;
-  padding: 10px 10px
-}
 .logo {
   display: flex;
   align-items: flex-start;
@@ -38,46 +41,32 @@ font-weight: bold;
 .image-content span{
     background: black;
     width: 100%;
+    text-align: center;
 }
 
-.locations-background {
-   background-image:
-  url("../images/img-locations-background.jpg");
-  height: 500px;
-  width: 1200px;
-}
-
-div.container {
-  display: flex;
-  height: 200px;
-  width: 300px;
-}
 .container {
-  width: 1000px;
-  margin: 0 auto;
   display: flex;
+  width: 1000px;
+  margin: 0;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .fall-berry {
+  display: block;
   width: 300px;
   height: 200px;
   text-align: center;
 }
 
-.fall-berry {
-  width: 100%;
-}
 .locations-background {
-    opacity: 1.0;
-    padding: 10px;
-    margin: 5px 20px;
-    background-color: black;
-    flex-basis: 280px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  height: 500px;
+  width: 1200px;
+}
+
+.locations-background span {
+  text-align: center;
 }
 
 .info {
