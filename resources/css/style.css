@@ -16,9 +16,11 @@ body {
   color: white;
 }
 .header img {
-    height: 50px;
-    padding-left: 10px;
-    justify-content: flex-start;
+  display: flex;
+  height: 50px;
+  padding-left: 10px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header nav {
@@ -30,7 +32,6 @@ header nav {
 nav span {
   text-align: right;
 }
-
 .logo {
   display: flex;
   justify-content: space-between;
@@ -107,13 +108,10 @@ nav span {
 
 .locations-background {
   background-image:
-  url("resources/images/img-locations-background.jpg" alt="coffe cup">
+  url("../images/img-locations-background.jpg"
   display: flex;
   height: 500px;
   width: 1200px;
-}
-.locations-background span {
-  justify-content: center;
 }
 
 .locations-container {
@@ -124,8 +122,6 @@ nav span {
 }
 .locations {
   display: flex;
-  width: 300px;
-  height: 300px;
   border-bottom: 1px solid seashell;
   justify-content: space-around;
   align-items: center;
