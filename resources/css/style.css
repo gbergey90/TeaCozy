@@ -5,12 +5,11 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  border-color: seashell;
   border: 1px solid seashell;
   text-align: center;
 }
 
-.Header {
+.header {
   position: fixed;
   background-color: black;
   font-weight: bold;
@@ -18,7 +17,7 @@ body {
   width: 100%;
   padding-left: 10px;
 }
-  
+
 nav span {
   text-align: right;
 }
@@ -43,20 +42,45 @@ nav span {
     width: 100%;
     text-align: center;
 }
-
-.container {
-  display: flex;
-  width: 1000px;
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.specialties-container {
+  display: flex;
   justify-content: center;
+}
+
+.specialties {
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.fall-berry {
-  display: block;
+.specialties-berry {
   width: 300px;
   height: 200px;
-  text-align: center;
+}
+
+.specialties-rum {
+  width: 300px;
+  height: 200px;
+}
+
+.specialties-donuts {
+  width: 300px;
+  height: 200px;
+}
+.specialties-myrtle {
+  width: 300px;
+  height: 200px;
+}
+.specialties-bedford {
+  width: 300px;
+  height: 200px;
 }
 
 .locations-background {
